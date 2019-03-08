@@ -9,7 +9,7 @@
 - 其他的自己去想吧，我也只是突发奇想。
 ### 思路
 国内的vps安装nginx，然后将请求转发到国外vps上。
-
+[![](https://raw.githubusercontent.com/dengjunwen/ss_-cluster/master/1552035082408.jpg )](https://raw.githubusercontent.com/dengjunwen/ss_-cluster/master/1552035082408.jpg)
 
 ### 前提准备
 - 1台以上数量的vps（可以访问国外网站的），如搬瓦工，linode等；
@@ -20,6 +20,9 @@
 在国外vps上安装shadowsocks，参考[https://github.com/dengjunwen/ss-fly](https://github.com/dengjunwen/ss-fly)
 ## 安装nginx
 - 直接使用yum install nginx
-- 安装好nginx后，配置/etc/nginx/nginx.conf文件（贴出部分代码片段）：
+- 安装好nginx后，配置/etc/nginx/nginx.conf文件（文件已经上传）：
+[![](https://raw.githubusercontent.com/dengjunwen/ss_-cluster/master/nginx.conf.jpg)](https://raw.githubusercontent.com/dengjunwen/ss_-cluster/master/nginx.conf.jpg)
+
 
 ## 本地安装小飞机
+[![](https://raw.githubusercontent.com/dengjunwen/ss_-cluster/master/%E5%B0%8F%E9%A3%9E%E6%9C%BA%E7%9A%84%E9%85%8D%E7%BD%AE.jpg)](https://raw.githubusercontent.com/dengjunwen/ss_-cluster/master/%E5%B0%8F%E9%A3%9E%E6%9C%BA%E7%9A%84%E9%85%8D%E7%BD%AE.jpg)
