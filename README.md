@@ -13,13 +13,13 @@
 
 ### 前提准备
 - 1台以上数量的vps（可以访问国外网站的），如搬瓦工，linode等；
-- 1台带宽够大的国内vps；
+- 1台国内vps；
 
 # 具体实现
 ## 安装shadowsocks
-在国外vps上安装shadowsocks，参考[https://github.com/dengjunwen/ss-fly](https://github.com/dengjunwen/ss-fly)
+在国外vps上一键全自动安装shadowsocks，参考[https://github.com/dengjunwen/ss-fly](https://github.com/dengjunwen/ss-fly)
 ## 安装nginx
-- 直接使用yum install nginx
+- 在国内的vps上安装nginx，直接使用yum install nginx
 - 安装好nginx后，配置/etc/nginx/nginx.conf文件（文件已经上传）：
 [![](https://raw.githubusercontent.com/dengjunwen/ss_-cluster/master/nginx.conf.jpg)](https://raw.githubusercontent.com/dengjunwen/ss_-cluster/master/nginx.conf.jpg)
 
